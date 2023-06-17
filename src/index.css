@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cart{
+  width: 100%;
+}
+.img-wraper{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  padding-left: 25px;
+}
+.img-wraper img{
+  width: 100%;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.btns button{
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  color: white;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.btns button:hover{
+  color: black;
+  background: white;
+  border: 1px solid black;
+  transition: 300ms ease;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/*  */
+.btn-wrapper{
+  display: flex !important;
+}
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;;
+}
+.cart-wrapper{
+   display: flex;
+    height: 100px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    margin-left: 10%;
+}
+.item {
+  /* float: left; */
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 80px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.cart-count{
+  
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    z-index: 1;
+    background-color: red;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+.btnOne, .btnTwo{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #61dafb;
+  color: rgba(245, 245, 245, 1);
+  margin-top: 10px;
+}
+.btnOne{
+  padding: 10px 25px;
+
+}
+.btnTwo{
+  margin-left: 20px;
+  padding: 10px 14px;
+}
